@@ -3,7 +3,12 @@
 #include <time.h>
 
 int main() {
-
+ 
+ char name[20];
+    printf("What is your name?\n");
+    scanf("%s",name);
+    printf("Hello,%s!",name);
+ 
  srand(time(NULL));
     int dice1 = (rand() % 6) + 1;
     int dice2 = (rand() % 6) + 1;
