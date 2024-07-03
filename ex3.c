@@ -19,9 +19,11 @@ int main() {
     printf("Total value: %d\n",dice1 + dice2);
 
     if(dice1 + dice2 <= 8){
-        printf("You won!");
+        printf("%s won!\n",name);
     }
     else{
-        printf("You lose!");
+        printf("%s lose!\n",name);
+
+     return 0;
 }
 }
